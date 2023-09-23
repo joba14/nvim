@@ -61,6 +61,10 @@ return packer.startup(function(use)
 	})
 
 	use({
+		'akinsho/toggleterm.nvim'
+	})
+
+	use({
 		'VonHeikemen/lsp-zero.nvim',
 		requires = {
 			-- LSP Support
